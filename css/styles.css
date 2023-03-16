@@ -1,0 +1,167 @@
+body {
+	font-family: SB Sans Display, sans-serif;
+}
+
+.container {
+	max-width: 1500px;
+	margin: auto;
+}
+
+.title,
+.product__card-subtitle {
+	text-transform: uppercase;
+}
+
+.card-img {
+	height: 100%;
+}
+
+.card__subtitle {
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	color: #FBFEFE;
+	font-size: 30px;
+}
+
+.product__card-subtitle {
+	line-height: 16px;
+	color: #FCFFFB;
+	font-size: 25px;
+	margin-bottom: 35px;
+}
+
+.title-accent {
+	color: white;
+	font-size: 50px;
+	background-color: #F44832;
+	text-align: center;
+}
+
+.product__title {
+	transform: rotate(-6deg);
+	margin-bottom: 42px;
+}
+
+.card__item {
+	padding: 30px;
+	background-image: url("../img/kosmetika.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 16%;
+	padding: 43px;
+	border-radius: 16%;
+}
+
+
+.card-title {
+	margin-bottom: var(--bs-card-title-spacer-y);
+	font-family: SB Sans Text, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	height: 40px;
+	letter-spacing: -.02em;
+	line-height: 20px;
+	margin-top: 6px;
+	overflow: hidden;
+}
+
+.card__subtitle1 {
+	font-size: 40px;
+	color: #FDFFFD;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 100px;
+}
+
+.card__descr {
+	font-size: 16px;
+	color: #FDFFFD;
+}
+
+.img-bonus {
+	max-width: 35px;
+}
+
+.card-img-top {
+	margin-bottom: 25px;
+}
+
+.card__list {
+	margin-bottom: 150px;
+}
+
+.card__discount {
+	background-color: #F23842;
+	text-align: center;
+	max-width: 73px;
+	border-radius: 106px 45px 106px 45px;
+	color: #FFFFFF;
+	padding: 9px;
+	margin-bottom: 15px;
+}
+
+.card__price {
+	font-size: 18px;
+	font-weight: 700;
+	letter-spacing: normal;
+	line-height: 24px;
+	margin-right: 6px;
+	margin-right: 41px;
+}
+
+.card__bonus {
+	display: flex;
+	background-color: #2DCCCB;
+	border-radius: 45px 15px;
+	max-width: 180px;
+	padding: 0 26px;
+	color: white;
+	justify-content: space-between;
+}
+
+.card__price-bonus {
+	align-items: center;
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.card__bonus-digit {
+	margin-right: 15px;
+}
+
+.card__bonus-center {
+	margin-right: 15px;
+}
+
+.previous__price {
+	display: flex;
+	color: #919497;
+	margin-bottom: 10px;
+}
+
+.card__stars {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card__stars-amt {
+	margin-left: 25px;
+}
+
+.previous__price-right {
+	margin-right: 25px;
+}
+
+.btn {
+	background: #9b38dc;
+	border-color: #9b38dc;
+	color: #fff;
+	margin-top: 30px;
+	border-radius: 32px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	padding: 7px 24px;
+}

@@ -1,0 +1,117 @@
+body {
+    font-family: SB Sans Display,sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.title,
+.product__card-subtitle {
+    text-transform: uppercase;
+}
+
+
+
+.card-img {
+    height: 100%;
+}
+
+.card__subtitle {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #FBFEFE;
+    font-size: 30px;
+}
+
+.product__card-subtitle {
+    line-height: 16px;
+    color: #FCFFFB;
+    font-size: 25px;
+    margin-bottom: 35px;
+}
+
+.title-accent {
+    color: white;
+    font-size: 50px;
+    background-color: #F44832;
+    text-align: center;
+}
+
+.product__title {
+    transform: rotate(-6deg);
+    margin-bottom: 42px;
+}
+
+.card__item {
+    padding: 30px;
+    background-image: url("../img/kosmetika.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16%;
+    padding: 43px;
+    border-radius: 16%;
+        }
+
+
+.card__title {
+    color: #FBFEFE;
+    font-size: 35px;
+    background-color: #F74731;
+    text-align: center;
+    max-width: 215px;
+    rotate: -5deg;
+    margin-bottom: 25px;
+}
+
+.card__subtitle1 {
+    font-size: 40px;
+    color: #FDFFFD;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.card__descr {
+    font-size: 16px;
+    color: #FDFFFD;
+}
+
+.img-bonus {
+    max-width: 35px;
+}
+
+.card-img-top {
+    margin-bottom: 25px;
+}
+
+
+.card__discount {
+    background-color: #F23842;
+    text-align: center;
+    max-width: 73px;
+    border-radius: 106px 45px 106px 45px;
+    color: #FFFFFF;
+    padding: 9px;
+    margin-bottom: 15px;
+}
+
+.card__price {
+       font-size: 18px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 24px;
+    margin-right: 6px;
+}
+
+.card__bonus {
+    display: flex;
+    BACKGROUND-COLOR: #2DCCCB;
+    max-width: 122px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 45px 15px;
+}
